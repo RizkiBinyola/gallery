@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Category Filter in JS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+         <!-- Font Awesome Icon -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    </head>
+    <body>
+        <main class="container">
+            <section class="main-video">
+                <video src="videos/azila.mp4" controls autoplay muted></video>
+                <h3 class="title">Azila 1</h3>
+            </section>
+
+            <section class="video-playlist mt-5 card p-2">
+                <h3><span><i class="fa-solid fa-file-video"></i></span> Playlist Azila Haura Fisri Achmad</h3>
+                <p>Azila &nbsp; . &nbsp; 1:20</p>
+                <hr>
+                <div class="videos">
+    
+                </div>
+            </section>
+        </main>
+
+        <div class = "main-container" style="margin-top: 70px;">
+            <center>
+                <h2>Gallery Images</h2>
+            </center>
+            <div class = "filter-container">
+                <div class = "category-head">
+                    <ul>
+                        <div class = "category-title active" id = "all">
+                            <li>All</li>
+                            <span><i class = "fas fa-border-all"></i></span>
+                        </div>
+                        <div class = "category-title" id = "culture">
+                            <li>Komika</li>
+                            <span><i class = "fas fa-theater-masks"></i></span>
+                        </div>
+                        <div class = "category-title" id = "azila">
+                            <li>Azila</li>
+                            <span><i class="fa-solid fa-baby"></i></span>
+                        </div>
+                        <div class = "category-title" id = "bisnis">
+                            <li>Bisnis</li>
+                            <span><i class = "fas fa-coins"></i></span>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class = "posts-collect">
+                    <div class = "posts-main-container">
+                        <!-- single post -->
+                        <div class = "all bisnis">
+                            <div class = "post-img">
+                                <img src = "images/barang-1.jpeg" alt = "post">
+                                <span class = "category-name">bisnis</span>
+                            </div>
+                        </div>
+
+                        <div class = "all bisnis">
+                            <div class = "post-img">
+                                <img src = "images/barang-2.jpeg" alt = "post">
+                                <span class = "category-name">bisnis</span>
+                            </div>
+                        </div>
+
+                        <div class = "all bisnis">
+                            <div class = "post-img">
+                                <img src = "images/barang-3.jpeg" alt = "post">
+                                <span class = "category-name">bisnis</span>
+                            </div>
+                        </div>
+                        <!-- end of single post -->
+                        <!-- single post -->
+                        <div class = "all culture">
+                            <div class = "post-img">
+                                <img src = "images/tretan.jpg" alt = "post">
+                                <span class = "category-name">Komika</span>
+                            </div>
+                        </div>
+
+                        <div class = "all culture">
+                            <div class = "post-img">
+                                <img src="images/prediksi-komedi.jpg" class="img-fluid" alt="post">
+                                <span class = "category-name">Komika</span>
+                            </div>
+                        </div>
+
+                        <div class = "all culture">
+                            <div class = "post-img">
+                                <img src="images/komeng.jpg" class="img-fluid" alt="post">
+                                <span class = "category-name">Komika</span>
+                            </div>
+                        </div>
+
+                        <div class = "all culture">
+                            <div class = "post-img">
+                                <img src="images/rigen.jpg" class="img-fluid" alt="post">
+                                <span class = "category-name">Komika</span>
+                            </div>
+                        </div>
+
+                        <div class = "all culture">
+                            <div class = "post-img">
+                                <img src="images/indra-frimawan.jpg" class="img-fluid" alt="post">
+                                <span class = "category-name">Komika</span>
+                            </div>
+                        </div>
+
+                        <div class = "all culture">
+                            <div class = "post-img">
+                                <img src="images/dustin.jpg" class="img-fluid" alt="post">
+                                <span class = "category-name">Komika</span>
+                            </div>
+                        </div>                        
+                        <!-- end of single post -->
+                        <!-- single post -->
+                        <div class = "all azila">
+                            <div class = "post-img">
+                                <img src = "images/azila-1.jpeg" alt = "post">
+                                <span class = "category-name">Azila</span>
+                            </div>
+                        </div>
+
+                        <div class = "all azila">
+                            <div class = "post-img">
+                                <img src = "images/azila-2.jpeg" alt = "post">
+                                <span class = "category-name">Azila</span>
+                            </div>
+                        </div>
+                        <!-- end of single post --
+                        
+                        <!-- end of single post -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- JS file -->
+        <script src = "script.js"></script>
+        <script src="video.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
